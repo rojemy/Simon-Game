@@ -100,7 +100,10 @@ function gameOver() {
         $("#level-title").text("Press Start button");
         $("#level-title").addClass("blinking-effect");
         $("#start").show();
+
         level = 0;
         started = false;
+        userClickedPattern = [];
+        var gamePattern = [];
     }, 2000);
 }
