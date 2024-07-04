@@ -104,6 +104,6 @@ function gameOver() {
         level = 0;
         started = false;
         userClickedPattern = [];
-        var gamePattern = [];
+        gamePattern = [];
     }, 2000);
 }
